@@ -1,0 +1,74 @@
+/*
+BUTTON {
+    padding: 10px 50px 5px 5px;
+    font-family: "Trebuchet MS", Arial, Verdana;   
+    background: #e9e9e9 url(http://www.famfamfam.com/lab/icons/silk/icons/disk.png) 10px 10px no-repeat;
+    border-radius: 6px;
+    border: 1px solid #d9d9d9;
+    text-shadow: 1px 1px #fff;       
+}
+
+BUTTON:hover {
+    background-color: #f0f0f0;        
+}
+*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+/*    background-color: lightcyan;*/
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 60px; /* Margin bottom by footer height */
+}
+.btn-outline-success{
+    margin-right: 5px;
+}
+
+.img-responsive {
+	width:200px;
+	height:200px;
+}
+
+.d-block {
+    width:800px;
+	height:400px;
+}
+
+.label {
+  display: inline-block;
+  line-height: 10;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border: true;
+  border-radius: 2px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.label.label-outlined {
+  border-width: 1px;
+  border-style: dashed;
+  background-color: transparent
+}
+
+.label.label-outlined.label-default {
+  border-color: #000000;
+  color: #3616e2;
+  min-width: 600px;
+  height: 200px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgrey;
+    color: white;
+    text-align: center;
+}
